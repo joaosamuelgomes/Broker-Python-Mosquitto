@@ -1,0 +1,39 @@
+Linux...
+------------------------------------------------------------------------
+
+Instalar o broker Mosquitto:
+	sudo apt-get install mosquitto
+	sudo apt-get install mosquitto-clients
+
+Instalar o python, caso não tenha instaldo:
+	sudo apt-get install python
+
+Instalar o pip, caso não tenha instaldo:
+	sudo apt-get install python-pip
+
+Instalar a biblioteca do mosquitto para Python:
+	pip install paho-mqtt
+
+------------------------------------------------------------------------
+Casso o presesso acima resulte em falha sega o tutorial do seguinte
+link => https://pypi.org/project/paho-mqtt/
+
+------------------------------------------------------------------------
+
+Para o Publish:
+	Executar o arquivo:
+		python Publish.py
+
+	Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
+
+	Informar o cômodo que vai ser simulado
+
+------------------------------------------------------------------------
+
+Para o Subscribe:
+	Executar o arquivo:
+		python Subscribe.py
+
+	Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
+
+------------------------------------------------------------------------
