@@ -12,17 +12,25 @@ Este projeto foi criado usando as seguintes tecnologias
 ## Como utilizar esse projeto 📦
 
 1. Instalar o broker Mosquitto:
-	sudo apt-get install mosquitto
-	sudo apt-get install mosquitto-clients
+    ```bash
+	$sudo apt-get install mosquitto
+	$sudo apt-get install mosquitto-clients
+    ```
 
 2. Instalar o Python, caso não tenha instalado:
+    ```bash
 	sudo apt-get install python3
+    ```
 
 3. Instalar o pip, caso não tenha instalado:
+    ```bash
 	sudo apt install python3-pip
+    ```
 
 4. Instalar a biblioteca do Mosquitto para Python:
+    ```bash
 	pip install paho-mqtt
+    ```
 
 Para o Publish:
 	Executar o arquivo:
