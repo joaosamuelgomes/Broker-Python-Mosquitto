@@ -19,33 +19,30 @@ Este projeto foi criado usando as seguintes tecnologias
 
 2. Instalar o Python, caso não tenha instalado:
     ```bash
-	sudo apt-get install python3
+	$sudo apt-get install python3
     ```
 
 3. Instalar o pip, caso não tenha instalado:
     ```bash
-	sudo apt install python3-pip
+	$sudo apt install python3-pip
     ```
 
 4. Instalar a biblioteca do Mosquitto para Python:
     ```bash
-	pip install paho-mqtt
+	$pip install paho-mqtt
     ```
 
-Para o Publish:
-	Executar o arquivo:
+### Para o Publish:
 
-		python Publish.py
+Executar o arquivo ➡️ python3 Publish.py
 
-	Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
+Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
 
-	Informar o cômodo que vai ser simulado
+Informar o cômodo que vai ser simulado
 
-Para o Subscribe:
+### Para o Subscribe:
 
-	Executar o arquivo:
+Executar o arquivo ➡️ python3 Subscribe.py
 
-		python Subscribe.py
-
-	Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
+Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
 
