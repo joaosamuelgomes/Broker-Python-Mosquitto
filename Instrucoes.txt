@@ -29,4 +29,6 @@ Para o Subscribe:
 		python Subscribe.py
 
 	Informar o IP da maquina onde o broker vai rodar (127.0.0.1)
+	
+Caso existam dúvidas acesse: https://github.com/joaosamuelgomes/Broker-Python-Mosquitto/
 
